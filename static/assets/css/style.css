@@ -8,6 +8,28 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
+.logo {
+  height: 65%;
+  width: auto;
+}
+.logo-container {
+  height: 100%;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+.nav {
+  height: 75px;
+}
+.nav-main {
+  height: 100%;
+  display: flex;
+}
+
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;

@@ -16,11 +16,11 @@ app = Flask(__name__)
 
 
 # Set the secret key for the Flask application from an environment variable
-app.secret_key = os.getenv('FLASK_SECRET_KEY')
+app.secret_key = 'abc123secretkey'
 
 
 # Instantiate the OpenAI client with API key from environment variable
-client = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
+client = OpenAI(api_key= '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')
 
 
 # Load the predictive model from a file

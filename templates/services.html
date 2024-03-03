@@ -5,13 +5,13 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>FinAI</title>
+  <title>PNCredit</title>
   <meta content="This is an AI Chat bot for Loan. It uses Natural Language processing." name="description">
   <meta content="FinAI,Loan,bot,Money,Borrow bot,chat-bot,ai" name="keywords">
 
   <!-- Favicons -->
-  <link href="{{url_for('static', filename='assets/img/bothead.png')}}" rel="icon">
-  <link href="{{url_for('static', filename='assets/img/bothead.png')}}" rel="apple-touch-icon">
+  <link href="{{url_for('static', filename='assets/img/PNC-favicon.png')}}" rel="icon">
+  <link href="{{url_for('static', filename='assets/img/PNC-favicon.png')}}" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -27,6 +27,17 @@
 
   <!-- Template Main CSS File -->
   <link href="{{url_for('static', filename='assets/css/style.css')}}" rel="stylesheet">
+  <style>
+    footer {
+      border-top: white;
+      border-style: solid;
+      bottom: 0;
+      position: fixed;
+    }
+    body {
+      background-color: #37517e;
+    }
+  </style>
 </head>
 <body>
 
@@ -73,12 +84,17 @@
   <footer id="footer">
     
 
-    <div class="container footer-bottom clearfix">
-      <div class="copyright">
-        &copy; Copyright <strong><span>FinAI</span></strong>. All Rights Reserved
+    <div class="container footer-main">
+      <div class="footer-left">
+         <a href="https://www.pnc.com/en/small-business.html">PNC.com</a> | 
+         <a href="https://www.pnc.com/en/security-privacy.html">Security & Privacy</a> | 
+         <a href="https://www.pnc.com/en/terms-and-conditions.html">Terms & Conditions</a> | 
+         <a href="https://www.pnc.com/en/privacy-policy.html">Privacy Policy</a> | 
+         <br>
+         <a href="https://forms.pnc.com/content/cpra/en/cpra-form.html">Do Not Sell or Share My Personal Information</a> | 
+         <a href="https://careers.pnc.com/global/en/cookiesettings">Cookie Preference</a>
       </div>
-     
-    </div>
+      <div class="footer-right">©2024 The PNC Financial Services Group, Inc. All rights reserved.</div>
   </footer><!-- End Footer -->
 
   <div id="preloader"></div>
